@@ -1,0 +1,13 @@
+# SignSpeak - Jetson Orin Nano / JetPack 6.2.1
+# Python 3.10, ARM64
+
+numpy==1.26.4
+Pillow==9.0.1
+customtkinter==6.0.0
+
+# Install MediaPipe separately using the included ARM64 wheel:
+# wheels/official/mediapipe-0.10.14-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+
+# OpenCV is provided by the Jetson system installation.
+# PyTorch must use the Jetson-compatible installation.
+# Do NOT install opencv-contrib-python or generic PyTorch from PyPI.

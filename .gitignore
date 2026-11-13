@@ -1,0 +1,42 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Temporary files and backups
+*.bak
+*.bak*
+*.backup*
+*.tmp
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Local datasets and evaluation outputs
+external_evaluation_*/
+
+# Training dataset - not required for application deployment
+Dataset C/
+
+# Unused MediaPipe GPU wheel
+wheels/mediapipe-0.10.23+gpu-cp310-cp310-linux_aarch64.whl
+
+# Local evaluation cache
+*.npz
+
+# Diagnostic outputs
+jetson_selftest_results.json
+
+# Temporary UI testing
+ui_crash_test.py
+*.before_voice_fix
+Sign_to_Speech/
